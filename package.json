@@ -1,0 +1,21 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node .": "node run index.js"
+  },
+  "author": "Suvro",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.5.1",
+    "opusscript": "0.0.7",
+    "random-puppy": "^1.1.0",
+    "ytdl-core": "^1.0.5",
+    "ytdl-core-discord": "^1.0.3"
+  }
+}
