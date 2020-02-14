@@ -17,7 +17,7 @@ client.aliases = new Collection();
 
 client.on("ready", ()=>{
     console.log("Bot refreshed!");
-    client.user.setActivity('Over the server', { type: 'WATCHING' });
+    client.user.setActivity('Suvro|*Help', { type: 'LISTENING' });
         
     
 });
