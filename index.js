@@ -1,5 +1,5 @@
 const { Client, Collection, RichEmbed } = require("discord.js");
-const config = require("./config.json");
+const token = 'Njc3NzE0MDg0ODA4MDk3ODM4.XkYQdQ.rOh2MnKLGz1GVq90rGYjYxv5feA';
 
 const prefix = "*";
 
@@ -41,4 +41,4 @@ client.on("message", async message =>{
     
 });
 
-client.login(config.TOKEN);
+client.login(token);
